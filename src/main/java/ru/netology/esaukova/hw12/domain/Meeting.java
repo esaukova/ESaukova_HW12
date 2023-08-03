@@ -1,9 +1,9 @@
 package ru.netology.esaukova.hw12.domain;
 
 public class Meeting extends Task {
-    protected String topic;
-    protected String project;
-    protected String start;
+    private String topic;
+    private String project;
+    private String start;
 
     public Meeting(int id, String topic, String project, String start) {
         super(id);
